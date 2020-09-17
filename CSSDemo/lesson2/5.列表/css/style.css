@@ -1,0 +1,43 @@
+#nav {
+    width: 300px;
+    background: gray;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 35px;
+    /* 颜色 图片 图片位置 平铺方式 */
+    background: red url("../image/向下箭头.png") 269px 4px no-repeat;
+}
+/* ul li */
+/*
+list-style:
+none: 去掉远点
+circle: 空心圆
+decimal: 数字
+square: 正方形
+ */
+/*ul {*/
+/*    background: gray;*/
+/*}*/
+ul li {
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+    background-image: url("../image/向右箭头.png");
+    background-repeat: no-repeat;
+    background-position: 230px 0px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}

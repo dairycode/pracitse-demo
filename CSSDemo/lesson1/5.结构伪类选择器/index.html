@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- 避免使用class和id选择器 -->
+    <style>
+        /* ul的第一个子元素 */
+        ul li:first-child {
+            background: brown;
+        }
+
+        /* ul的最后一个子元素 */
+        ul li:last-child {
+            background: blue;
+        }
+
+        /* 选中p1: 定位到父元素,选择当前的第一个元素 */
+        /* 选中当前p元素的父级元素,选中父级元素的第一个,并且是当前元素才生效 */
+        p:nth-child(1) {
+            background: red;
+        }
+
+        /* 选中父元素下的p元素的第二个 */
+        p:nth-of-type(2) {
+            background: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<p>p1</p>
+<p>p1</p>
+<p>p1</p>
+
+<ul>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+</ul>
+
+</body>
+</html>

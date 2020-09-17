@@ -1,0 +1,52 @@
+# 可以通过debug: true来看那些配置生效了哪些没有
+debug: true
+
+# springboot这个配置文件中到底可以配置哪些东西
+# 官方的配置太多了
+# 了解原理: 一通百通
+# 注入到我们的配置类中!
+Server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+
+# 对象
+Student1:
+  name: dairycode
+  age: 23
+
+# 行内写法
+Student2: {name: dairycode, age: 23}
+
+# 数组
+pets1:
+  - cat
+  - dog
+  - pig
+
+pets2: [cat, dog, pig]
+
+Person:
+  name: dairycode${random.uuid}
+  age: ${random.int}
+  happy: true
+  birth: 2020/3/8
+  maps: {k1: v1, k2: v2}
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: ${person.hello:hello}_旺财
+    age: 3
+---
+server:
+  port: 8081
+spring:
+  profiles: test
+---
+server:
+  port: 8082
+spring:
+  profiles: dev

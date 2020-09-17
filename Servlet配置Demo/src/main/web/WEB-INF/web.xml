@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>ServletDemo</display-name>
+
+    <!-- 首页 -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- Servlet配置 -->
+    <servlet>
+        <servlet-name>WelcomeServlet2.5</servlet-name>
+        <servlet-class>com.github.dairycode.servlet2_5.WelcomeServlet2_5</servlet-class>
+        <!-- 配置自启动(1代表该Servlet第一个自启动) -->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- <servlet-mapping>中的<servlet-name>去匹配<servlet>中的servlet-name> -->
+    <!-- 然后寻找到<servlet-class>,最终将请求交给<servlet-class>执行 -->
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet2.5</servlet-name>
+        <url-pattern>/WelcomeServlet2.5</url-pattern>
+    </servlet-mapping>
+    
+</web-app>

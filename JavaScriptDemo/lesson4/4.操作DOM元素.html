@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+<ul id="test-ul">
+    <li class="js">JavaScript</li>
+    <li name="python">Python</li>
+</ul>
+
+<script>
+    // 节点文本操作
+    $('#test-ul li[name=python]').text();   // 获得值
+    // $('#test-ul li[name=python]').text('设置值');   // 设置值
+    $('#test-ul').html();   // 获得值
+    // $('#test-ul').html('<strong>123</strong>');   // 设置值
+
+    // CSS操作
+    $('#test-ul li[name=python]').css("color", "red");
+
+</script>
+
+</body>
+</html>

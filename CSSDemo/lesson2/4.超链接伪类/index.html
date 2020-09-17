@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        /* 默认的颜色 */
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /* 鼠标悬浮的状态(只需要记住这个) */
+        a:hover {
+            color: orange;
+            font-size: 20px;
+        }
+
+        /* 鼠标按住未释放的状态 */
+        a:active {
+            color: blue;
+        }
+
+        /* 未访问的状态 */
+        a:link {}
+
+        /* 已访问的状态 */
+        a:visited {}
+
+        /* text-shadow: 阴影颜色 水平偏移 垂直偏移 阴影半径 */
+        #price {
+            text-shadow: pink 10px 10px 2px;
+        }
+    </style>
+
+</head>
+<body>
+
+<a href="#">
+    <img src="image/码出高效.jpg" alt="">
+</a>
+
+<p>
+    <a href="#">码出高效: Java开发手册</a>
+</p>
+
+<p>
+    <a href="#">作者: 孤尽老师</a>
+</p>
+
+<p id="price">
+    ￥99
+</p>
+
+</body>
+</html>

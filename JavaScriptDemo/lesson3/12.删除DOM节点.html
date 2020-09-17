@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="father">
+    <h1>标题一</h1>
+    <p id="p1">p1</p>
+    <p class="p2">p2</p>
+</div>
+
+<script>
+    var h1 = document.getElementsByTagName('h1');
+    var p1 = document.getElementById('p1');
+    var p2 = document.getElementsByClassName('p2');
+    var father = document.getElementById('father');
+
+    // 删除节点步骤: 先获取父节点,再通过父节点删除子节点
+    father.removeChild(p1);
+
+    // 注意: 删除多个节点的时候,children是在时刻变化的,删除节点的时候一定要注意
+    father.removeChild(father.children[0]);
+
+</script>
+
+</body>
+</html>

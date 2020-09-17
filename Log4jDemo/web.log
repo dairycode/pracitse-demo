@@ -1,0 +1,12 @@
+2020-07-09 at 17:49:20 CST TRACE Log4j2Test 11 main - log4j2日志输出：This is trace message.
+2020-07-09 at 17:49:20 CST DEBUG Log4j2Test 13 main - log4j2日志输出：This is debug message.
+2020-07-09 at 17:49:20 CST INFO  Log4j2Test 15 main - log4j2日志输出：This is info message.
+2020-07-09 at 17:49:20 CST ERROR Log4j2Test 17 main - log4j2日志输出：This is error message.
+2020-07-09 at 17:49:20 CST TRACE Log4j2Test 11 main - log4j2日志输出：This is trace message.
+2020-07-09 at 17:49:20 CST DEBUG Log4j2Test 13 main - log4j2日志输出：This is debug message.
+2020-07-09 at 17:49:20 CST INFO  Log4j2Test 15 main - log4j2日志输出：This is info message.
+2020-07-09 at 17:49:20 CST ERROR Log4j2Test 17 main - log4j2日志输出：This is error message.
+2020-07-09 at 17:49:20 CST TRACE Log4j2Test 11 main - log4j2日志输出：This is trace message.
+2020-07-09 at 17:49:20 CST DEBUG Log4j2Test 13 main - log4j2日志输出：This is debug message.
+2020-07-09 at 17:49:20 CST INFO  Log4j2Test 15 main - log4j2日志输出：This is info message.
+2020-07-09 at 17:49:20 CST ERROR Log4j2Test 17 main - log4j2日志输出：This is error message.

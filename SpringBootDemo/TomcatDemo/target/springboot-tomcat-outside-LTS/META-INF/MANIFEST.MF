@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: liuze
+Build-Jdk: 1.8.0_231
+Implementation-Title: springboot-tomcat-outside
+Implementation-Version: LTS
+Implementation-Vendor-Id: com.github.dairycode
+Main-Class: ${start-class}
+

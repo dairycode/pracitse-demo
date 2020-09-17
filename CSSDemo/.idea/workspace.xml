@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08a999cd-636b-4ee1-b24b-49035df69e5e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/Java_Project/Java_Tools/apache-maven-3.6.1-repo" />
+        <option name="mavenHome" value="$USER_HOME$/Documents/Java_Project/Java_Tools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/Java_Project/Java_Tools/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZCj31VuWFo0WA1JyQAqixwwb4Z" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson7/6.zindex/image" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson7/6.zindex/image" />
+      <recent name="$PROJECT_DIR$/lesson7/4.绝对定位" />
+      <recent name="$PROJECT_DIR$/lesson7/2.相对定位" />
+      <recent name="$PROJECT_DIR$/lesson6/image" />
+      <recent name="$PROJECT_DIR$/lesson4/1.浮动/image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson4" />
+      <recent name="$PROJECT_DIR$/lesson2/5.列表/image" />
+      <recent name="$PROJECT_DIR$/lesson2/6.背景/image" />
+      <recent name="$PROJECT_DIR$/lesson2/4.超链接伪类/image" />
+      <recent name="$PROJECT_DIR$/lesson2/3.文本样式/image" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08a999cd-636b-4ee1-b24b-49035df69e5e" name="Default Changelist" comment="" />
+      <created>1584349766749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584349766749</updated>
+      <workItem from="1584349768079" duration="3469000" />
+      <workItem from="1584359010544" duration="237000" />
+      <workItem from="1584361548129" duration="4713000" />
+      <workItem from="1584517769710" duration="284000" />
+      <workItem from="1584523394748" duration="7316000" />
+      <workItem from="1584546506478" duration="5684000" />
+      <workItem from="1584556669619" duration="126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

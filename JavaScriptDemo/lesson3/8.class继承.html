@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    
+    function student(name) {
+        this.name = name;
+    }
+    
+    // 给student新增一个方法
+    student.prototype.hello = function () {
+        alert("hello")
+    };
+
+    // ES6之后
+    // 定义一个学生的类
+    class Student {
+        constructor(name) {
+            this.name = name;
+        }
+
+        hello() {
+            alert("hello")
+        }
+    }
+
+    class XiaoStudent extends Student {
+        constructor(name, grade) {
+            super(name);
+            this.grade = grade;
+        }
+
+        myGrade() {
+            alert("我是一个小学生");
+        }
+    }
+
+    var xiaoming = new Student("xiaoming");
+    var xiaohong = new XiaoStudent("小红", 100);
+    
+</script>
+
+</body>
+</html>

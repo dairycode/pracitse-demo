@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOM操作浏览器对象</title>
+</head>
+<body>
+
+<script>
+
+    // 1.window代表浏览器窗口(重要)
+    window.alert(1);
+    console.log(window.innerHeight);
+    console.log(window.innerWidth);
+    console.log(window.outerHeight);
+    console.log(window.outerWidth);
+
+    // 2.navigator封装了浏览器的信息(不建议)
+    // 不建议使用,因为会被人为修改
+    console.log(navigator.appName);
+    console.log(navigator.appVersion);
+    console.log(navigator.userAgent);
+    console.log(navigator.platform);
+
+    // 3.screen代表屏幕尺寸
+    console.log(screen.width);
+    console.log(screen.height);
+
+    // 4.location代表当前页面的URL信息(重要)
+    console.log(location);
+
+    // 5.document代表当前的页面,HTML,DOM文档树
+    console.log(document.title);
+    console.log(document.cookie);
+
+    // 6.history代表浏览器历史记录(不建议)
+    // history.forward();
+    // history.back();
+
+</script>
+
+</body>
+</html>

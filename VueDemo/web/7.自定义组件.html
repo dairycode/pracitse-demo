@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app7">
+    <ol>
+        <todo-item></todo-item>
+    </ol>
+</div>
+
+</body>
+</html>
+
+<script src="js/vue.js"></script>
+<script>
+    Vue.component('todo-item', {
+        template: '<li>这是个待办项</li>'
+    });
+
+    var app7 = new Vue({
+        el: '#app7'
+    })
+</script>

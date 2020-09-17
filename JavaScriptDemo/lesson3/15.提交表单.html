@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- MD5工具类 -->
+    <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.js"></script>
+</head>
+<body>
+
+<!--
+表单绑定提交事件
+onsubmit: 绑定一个提交检测的函数,true,false
+将这个结果返回给表单
+-->
+<form action="#" method="post" onsubmit="return aaa()">
+    <p>
+        <span>用户名:</span>
+        <input type="text" id="username" name="username">
+    </p>
+    <p>
+        <span>密码:</span>
+        <input type="password" id="input-password">
+    </p>
+
+    <input type="hidden" id="md5-password" name="password">
+
+    <!-- 绑定事件 onclick被点击 -->
+    <button type="submit">提交</button>
+</form>
+
+<script>
+    function aaa() {
+        var uname = document.getElementById('username');
+        var pwd = document.getElementById('input-password');
+        var md5pwd = document.getElementById('md5-password');
+
+        md5pwd.value = md5(pwd.value);
+        // 可以校验判断表单内容,true可以成功提交,false阻止提交
+        return true;
+    }
+</script>
+
+</body>
+</html>

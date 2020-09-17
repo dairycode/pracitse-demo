@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        'use strict'
+
+        var age = 3;
+        if (age > 3) {
+            alert("haha");
+        } else {
+            alert("kuwa~");
+        }
+
+        while (age < 100) {
+            age = age + 1;
+            console.log(age)
+        }
+
+        for (let i = 0; i < 100; i++) {
+            console.log(i);
+        }
+
+        var age = [11, 22, 33, 44, 55];
+        // 函数
+        age.forEach(function (value) {
+            console.log(value);
+        });
+        // num是索引
+        for (var num in age) {
+            console.log(age[num]);
+        }
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

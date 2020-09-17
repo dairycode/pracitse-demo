@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p id="js">JavaScript</p>
+<div id="list">
+    <p id="se">JavaSE</p>
+    <p id="ee">JavaEE</p>
+    <p id="me">JavaME</p>
+</div>
+
+<script>
+    // 我们获得了某个DOM节点,假设这个节点是空的,我们通过innerHTML就可以增加一个元素
+    // 但是这个DOM节点已经存在元素了,我们就不能这么干了!会产生覆盖!
+    var js = document.getElementById('js');
+    var list = document.getElementById('list');
+
+    // 追加已存在节点到后面
+    list.append(js);
+
+    // 通过JS创建一个新的节点,实现插入
+    var newP = document.createElement('p');    // 创建一个p标签
+    newP.id = 'newP';
+    newP.innerText = 'hello';
+    list.appendChild(newP);
+
+    // 创建一个标签节点(通过这个属性,可以设置任意的值)
+    var myScript = document.createElement('script');
+    myScript.setAttribute('type', 'text/javascript');
+
+    // 可以创建一个style标签
+    var myStyle = document.createElement('style');
+    myStyle.setAttribute('type', 'text/css');
+    myStyle.innerHTML = 'body {background-color: brown;}';
+    document.getElementsByTagName('head')[0].appendChild(myStyle);
+
+    // insert
+    var ee = document.getElementById('ee');
+    var js = document.getElementById('js');
+    var list = document.getElementById('list');
+    // 要包含的节点 insertBefore(newNode, targetNode)
+    list.insertBefore(js, ee);
+
+</script>
+
+</body>
+</html>

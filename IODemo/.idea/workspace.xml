@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebfb07ab-d94e-4393-a1e3-4e3cce75a012" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/Java/Environment/apache-maven-3.6.1/repo" />
+        <option name="mavenHome" value="$USER_HOME$/Documents/Java/Environment/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/Java/Environment/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aCMxZJ1gvvWEM4y236dEHMoZ79" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.StreamRW">
+    <configuration name="BufferedRW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.dairycode.io.BufferedRW" />
+      <module name="IODemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.dairycode.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferedStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.dairycode.io.BufferedStream" />
+      <module name="IODemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.dairycode.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteArrayStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.dairycode.io.ByteArrayStream" />
+      <module name="IODemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.dairycode.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileRW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.dairycode.io.FileRW" />
+      <module name="IODemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.dairycode.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamRW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.dairycode.io.StreamRW" />
+      <module name="IODemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.dairycode.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamRW" />
+        <item itemvalue="Application.BufferedRW" />
+        <item itemvalue="Application.BufferedStream" />
+        <item itemvalue="Application.ByteArrayStream" />
+        <item itemvalue="Application.FileRW" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebfb07ab-d94e-4393-a1e3-4e3cce75a012" name="Default Changelist" comment="" />
+      <created>1586235370050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586235370050</updated>
+      <workItem from="1586235371888" duration="1254000" />
+      <workItem from="1586236632732" duration="2315000" />
+      <workItem from="1586240507209" duration="192000" />
+      <workItem from="1586249734704" duration="105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="308" key="GridCell.Tab.0.bottom" timestamp="1586240150206">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="308" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1586240150206" />
+    <state width="1398" height="308" key="GridCell.Tab.0.center" timestamp="1586240150205">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="308" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1586240150205" />
+    <state width="1398" height="308" key="GridCell.Tab.0.left" timestamp="1586240150204">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="308" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1586240150204" />
+    <state width="1398" height="308" key="GridCell.Tab.0.right" timestamp="1586240150205">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="308" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1586240150205" />
+    <state x="229" y="23" width="1024" height="813" key="SettingsEditor" timestamp="1586235748017">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="229" y="23" width="1024" height="813" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1586235748017" />
+  </component>
+</project>

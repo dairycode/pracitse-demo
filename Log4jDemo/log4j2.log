@@ -1,0 +1,12 @@
+17:49:20.442 TRACE Log4j2Test 11 main - log4j2日志输出：This is trace message.
+17:49:20.444 DEBUG Log4j2Test 13 main - log4j2日志输出：This is debug message.
+17:49:20.444 INFO  Log4j2Test 15 main - log4j2日志输出：This is info message.
+17:49:20.444 ERROR Log4j2Test 17 main - log4j2日志输出：This is error message.
+17:49:20.445 TRACE Log4j2Test 11 main - log4j2日志输出：This is trace message.
+17:49:20.445 DEBUG Log4j2Test 13 main - log4j2日志输出：This is debug message.
+17:49:20.445 INFO  Log4j2Test 15 main - log4j2日志输出：This is info message.
+17:49:20.446 ERROR Log4j2Test 17 main - log4j2日志输出：This is error message.
+17:49:20.446 TRACE Log4j2Test 11 main - log4j2日志输出：This is trace message.
+17:49:20.446 DEBUG Log4j2Test 13 main - log4j2日志输出：This is debug message.
+17:49:20.447 INFO  Log4j2Test 15 main - log4j2日志输出：This is info message.
+17:49:20.447 ERROR Log4j2Test 17 main - log4j2日志输出：This is error message.
